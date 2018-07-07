@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="second.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <title>second-hand</title>
+</head>
+
+<body>
+<div class="container">
+    <br><br><br><br>
+    <h1>我的二手</h1>
+    <br>
+    <div class="card">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#New"><h3>New</h3></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#My_goods"><h3>Mine</h3></a>
+            </li>
+            <br>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#Record"><h3>Record</h3></a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="New" class="container tab-pane active"><br>
+                <h3>新发布</h3>
+                <div class="newpublic">
+
+                </div>
+                <br><br>
+                <div align="center">
+                    <button type="button" class="btn">确认发布</button>
+                </div>
+                <br>
+            </div>
+            <div id="My_goods" class="container tab-pane fade"><br>
+                <h3>我的商品</h3>
+                <div class="container">
+                    <div class="card">
+                        <div class="card-header">商品一</div>
+                        <div class="card-body">
+                            <div align="center">
+                                <textarea name="Input" cols="100"rows="8" style="OVERFLOW:vision" style="width: 60%" >商品描述：</textarea>
+                            </div>
+                            <br><br>
+                            <img src="hp.jpg">&nbsp;
+                            <img src="hp.jpg"><br><br>
+                            <button type="button" class="btn">修改图片</button>
+                        </div>
+                        <div class="card-header">商品二</div>
+                        <div class="card-body">
+                            <div align="center">
+                                <textarea name="Input" cols="100"rows="8" style="OVERFLOW:vision" style="width: 60%" >商品描述：</textarea>
+                            </div>
+                            <br><br>
+                            <img src="hp.jpg">&nbsp;
+                            <img src="hp.jpg"><br><br>
+                            <button type="button" class="btn">修改图片</button>
+                        </div>
+                        <div class="card-header">商品三</div>
+                        <div class="card-body">
+                            <div align="center">
+                                <textarea name="Input" cols="100"rows="8" style="OVERFLOW:vision" style="width: 60%" >商品描述：</textarea>
+                            </div>
+                            <br><br>
+                            <img src="hp.jpg">&nbsp;
+                            <img src="hp.jpg"><br><br>
+                            <button type="button" class="btn">修改图片</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Record" class="container tab-pane fade"><br>
+                <h3>购买记录</h3>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</body>
+
+
+</html>
